@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scissors & Style - Bengaluru's Premier Barbershop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Scissors & Style</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#book">Book Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero jumbotron jumbotron-fluid bg-primary text-white text-center">
+        <div class="container">
+            <h1 class="display-4">Get the Perfect Cut at Scissors & Style</h1>
+            <p class="lead">Bengaluru's premier barbershop for classic and modern styles.</p>
+            <a href="#book" class="btn btn-light btn-lg">Book Your Appointment</a>
+        </div>
+    </section>
+
+    <section id="services" class="container py-5">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Classic Haircut</h5>
+                        <p class="card-text">Expertly crafted classic haircuts tailored to your style.</p>
+                        <p class="card-text"><small class="text-muted">Starting from ₹300</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Modern Styling</h5>
+                        <p class="card-text">Trendy and contemporary hairstyles to keep you looking sharp.</p>
+                        <p class="card-text"><small class="text-muted">Starting from ₹400</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Beard Trim & Shape</h5>
+                        <p class="card-text">Professional beard trimming and shaping for a well-groomed look.</p>
+                        <p class="card-text"><small class="text-muted">Starting from ₹200</small></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <section id="gallery" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Gallery</h2>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <img src="https://via.placeholder.com/350x300/87CEEB/000000?Text=Haircut+1" alt="Haircut 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="https://via.placeholder.com/350x300/ADD8E6/000000?Text=Beard+Trim+1" alt="Beard Trim 1" class="img-fluid rounded">
+                </div>
+                <div class="col-md-4 mb-3">
+                    <img src="https://via.placeholder.com/350x300/B0E0E6/000000?Text=Style+1" alt="Style 1" class="img-fluid rounded">
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="book" class="container py-5">
+        <h2 class="text-center mb-4">Book Your Appointment</h2>
+        <p class="text-center">Schedule your next haircut with ease.</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="service">Select Service</label>
+                <select class="form-control" id="service">
+                    <option>Classic Haircut</option>
+                    <option>Modern Styling</option>
+                    <option>Beard Trim & Shape</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <label for="date">Preferred Date</label>
+                <input type="date" class="form-control" id="date">
+            </div>
+            <div class="form-group">
+                <label for="time">Preferred Time</label>
+                <select class="form-control" id="time">
+                    <option>10:00 AM</option>
+                    <option>11:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>01:00 PM</option>
+                    <option>02:00 PM</option>
+                    <option>03:00 PM</option>
+                    <option>04:00 PM</option>
+                    <option>05:00 PM</option>
+                    </select>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Request Appointment</button>
+            <p class="mt-2 text-muted text-center"><small>Your appointment request will be confirmed via email or phone.</small></p>
+        </form>
+    </section>
+
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Testimonials</h2>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"Excellent service and a fantastic haircut! Rohan really knows his craft. Highly recommended."</p>
+                            <p class="card-text"><small class="text-muted">- Karthik S.</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"The best barbershop in the area. Always leave feeling sharp and well-groomed. The online booking will be a great addition!"</p>
+                            <p class="card-text"><small class="text-muted">- Priya M.</small></p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>Scissors & Style</strong><br>
+                [Insert Actual Address Here]<br>
+                Bengaluru, Karnataka<br>
+                Phone: [Insert Actual Phone Number]<br>
+                Email: [Insert Actual Email Address]</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.674389799399!2d77.6049567747268!3d12.93088519065336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae167fa6ed4ad9%3A0xba51917109929a5!2sYour%20Location%20Here!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="col-md-6">
+                <h3>Send us a message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Scissors & Style. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
